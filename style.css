@@ -47,9 +47,13 @@ background: #B86400;  /* fallback for old browsers */
   background-color:rgba(0,0,0,0)!important;
 }
 
+.navbar-nav a{
+  padding:14px;
+}
+
 .nav-link{
-  padding-top:3!important;
-  padding-bottom:3!important;
+  padding-top:9!important;
+  padding-bottom:9!important;
   margin:auto;
   font-family: 'Raleway', cursive;
   font-size:1.1vw;
@@ -58,7 +62,7 @@ background: #B86400;  /* fallback for old browsers */
 }
 
 .navbar-nav a:hover{
-  PADDING:14PX!important;
+  PADDING:18PX!important;
   background:#B86400;
 }
 
@@ -91,30 +95,34 @@ nav a:hover{
 }  
 
 .main-sub-page{
-  height:500px;
+  height:0px;
 }
 
-/*h5,*/
-/*h3{*/
-/*  color:#B86400!important;*/
-/*}*/
+h6,
+h5,
+h4,
+h3,
+h2,
+h1{
+    /*font-family: 'Homemade Apple', cursive!important;*/
+}
   
 .merel{
   font-family: 'Raleway', cursive!important;
 }
 
-.main-header-sub-page{
-  line-height:100%;
-  position:relative;
-  top:30%;
-  color:white;
+/*.main-header-sub-page{*/
+/*  line-height:100%;*/
+/*  position:relative;*/
+/*  top:30%;*/
+/*  color:white;*/
   /*text-shadow: 1px 2px 4px white;*/
-  font-size:86px;
-  font-family: 'Dancing Script', cursive;
+/*  font-size:86px;*/
+/*  font-family: 'Dancing Script', cursive;*/
   /*text-transform:uppercase;*/
   /*text-transform:uppercase;*/
-  font-weight:100!important;
-}
+/*  font-weight:100!important;*/
+/*}*/
 
 .main-header{
   line-height:100%;
@@ -181,7 +189,10 @@ nav a:hover{
   /*  .over-par{*/
   /*  padding-right:0%;*/
   /*}*/
-
+.btn-outline-secondary{
+    border: 0.5px solid #B86400!important;
+    color:#B86400!important;
+}
 
 .btn-outline-secondary:hover{
   border: 2px solid #B86400!important;
@@ -286,7 +297,7 @@ footer a{
 }
 
 .contact1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive!important;
     color:#B86400;
 }
 
@@ -361,6 +372,10 @@ footer a:hover{
   font-family: 'Dancing Script', cursive;
   Background-color:#B86400;
   color:white!important;
+}
+
+.text-uppercase{
+  font-family: 'Raleway', cursive!important;
 }
 
 .text-uppercase{
@@ -497,6 +512,10 @@ footer a:hover{
     margin:0%!important;
   }
 }
+
+/*.list{*/
+/*  border-left:0.5px solid rgba(0,0,0,0.5);*/
+/*}*/
 
 .god-border{
   border:2px solid rgba(0,0,0,0.5);
