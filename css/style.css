@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('https://image.shutterstock.com/z/stock-photo-two-blackbirds-are-silhouetted-against-a-blazing-orange-northern-california-sunset-633482771.jpg') no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/merels.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,6 +35,14 @@ background: #B86400;  /* fallback for old browsers */
 
 .shadow-el{
   box-shadow:0px 20px 40px rgba(0,0,0,0.5);
+}
+
+.navbar-toggler{
+  padding:10px!important;
+}
+
+.navbar-toggler-icon{
+    color:#B86400!important;
 }
 
 .fixed-top-2{
